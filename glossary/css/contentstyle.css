@@ -1,0 +1,42 @@
+@font-fase{
+    font-family: 'Dayrom';
+    src: url('./fonts/dayrom.eot');
+    src: url('./fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/dayrom.woff') format('woff'),
+         url('./fonts/dayrom.ttf') format('truetype'),
+         url('./fonts/dayrom.svg#Dayrom') format('svg');
+         font-weight: normal;
+         font-style: normal;
+}
+
+a{
+    color: gray;
+}
+
+header{
+    color: #cc9900;
+    font-style: italic;
+}
+
+body{
+    font-family: 'Dayrom', sans-serif;
+    background-color: #3d3d29;
+    color: white;
+}
+
+h2{
+    color: #cc9900;
+}
+
+#syntax{
+    border: 1px solid white;
+    padding: 5px;
+    width: 500px;
+    overflow: auto;
+}
+
+img{
+    width: 1200px;
+    resize: both;
+    overflow: auto;
+}
